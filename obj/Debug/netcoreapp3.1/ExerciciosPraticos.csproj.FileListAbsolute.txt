@@ -1,0 +1,13 @@
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.exe
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.deps.json
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.runtimeconfig.json
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.runtimeconfig.dev.json
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.dll
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\bin\Debug\netcoreapp3.1\ExerciciosPraticos.pdb
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.csprojAssemblyReference.cache
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.AssemblyInfoInputs.cache
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.AssemblyInfo.cs
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.dll
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.pdb
+C:\Users\gabriel.nascimento\Documents\deal-curso\C#\ExerciciosPraticos\obj\Debug\netcoreapp3.1\ExerciciosPraticos.genruntimeconfig.cache
