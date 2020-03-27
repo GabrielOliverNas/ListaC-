@@ -10,54 +10,51 @@ namespace ExerciciosPraticos
         static void Main(string[] args)
         {
             string nomePesquisar;
-            int escolha;
-            var lista = new List<Compromisso>();
+            var listaFeita = new List<CompromissoFeito>();
+            var marcarLista = new List<MarcarCompromisso>();
+            int idAtual = 0, quantidadeCompromisso = 0;
 
-            lista.Add(new Compromisso
+            Console.WriteLine("Quandos compromissos voce quer adicionar?");
+            quantidadeCompromisso = Console.Read();
+
+            for (var i = 0; i < quantidadeCompromisso; i++)
             {
-                Id = 1,
-                nome = "Gabriel",
-                idade = 17,
+                Console.WriteLine("Entre com um nome para seu compromisso");
+                string nomeAdd = Console.ReadLine();
 
-            });
-            lista.Add(new Compromisso
-            {
-                Id = 2,
-                nome = "Maicon",
-                idade = 19,
+                Console.WriteLine("Entre com uma idade para seu compromisso");
+                int idadeAdd = Console.Read();
 
-            });
-            lista.Add(new Compromisso
-            {
-                Id = 3,
-                nome = "Jose",
-                idade = 30,
 
-            });
-
-            Console.WriteLine("Deseja listar antes de selecionar?\n1-Sim\n2-Não");
-            escolha = Console.Read();
-            while (escolha != 51)
-            {
-                if (escolha == 50)
+                marcarLista.Add(new MarcarCompromisso
                 {
-                    Console.WriteLine("Qual compromisso você quer marcar?");
-                    nomePesquisar = Console.ReadLine();
-                    var resultado = lista.Where(x => x.nome == nomePesquisar);
-                    Console.WriteLine($"Sua pesquisa gerou esse resultado {resultado.First().nome}");
-                }
-                else
-                {
-                    Console.WriteLine("==============================");
-                    foreach (var elemento in lista)
-                    {
-                        Console.WriteLine(elemento.nome);
-                    }
-                    Console.WriteLine("Deseja imprimir novamente?\n1-Sim\n2-Não");
-
-                }
+                    id = idAtual +1,
+                    nome = nomeAdd,
+                    idade = idadeAdd,
+                });
             }
 
+
+            Console.WriteLine("Sua lista atual");
+            foreach (var elemento in marcarLista)
+            {
+                Console.WriteLine($"Id: {elemento.id}");
+                Console.WriteLine($"Nome: {elemento.nome}");
+                Console.WriteLine($"Idade: {elemento.idade}");
+                Console.WriteLine("- - - - - -");
+            }
+            Console.WriteLine("=========================");
+            Console.WriteLine("Qual compromisso você quer marcar como feito?\nEscolha usando o nome");
+            nomePesquisar = Console.ReadLine();
+            var resultado = marcarLista.Where(x => x.nome == nomePesquisar);
+            Console.WriteLine($"Marcamos em sua lista como feito: {resultado.First().nome}");
+
+            listaFeita.Add(new CompromissoFeito
+            {
+                Id = resultado.First().id,
+                nome = resultado.First().nome,
+                idade = resultado.First().idade,
+            });
         }
     }
 }
