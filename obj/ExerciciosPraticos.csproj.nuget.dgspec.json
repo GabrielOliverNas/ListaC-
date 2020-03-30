@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ExerciciosPraticos.csproj": {}
+    "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ListaC-\\ExerciciosPraticos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ExerciciosPraticos.csproj": {
+    "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ListaC-\\ExerciciosPraticos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ExerciciosPraticos.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ListaC-\\ExerciciosPraticos.csproj",
         "projectName": "ExerciciosPraticos",
-        "projectPath": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ExerciciosPraticos.csproj",
+        "projectPath": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ListaC-\\ExerciciosPraticos.csproj",
         "packagesPath": "C:\\Users\\gabriel.nascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.nascimento\\Documents\\deal-curso\\C#\\ExerciciosPraticos\\ListaC-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabriel.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config"

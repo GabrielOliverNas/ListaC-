@@ -12,9 +12,13 @@ namespace ExerciciosPraticos
         {
             this.nome = nome;
         }
+        public List<Compromisso> compromisso = new List<Compromisso>();
+        public List<CompromissoFeito> compromissoFeito = new List<CompromissoFeito>();
+
+
         public void Adicionar()
         {
-            var compromisso = new List<Compromisso>();
+
             Boolean escolha = true;
 
             while (escolha == true)
@@ -36,27 +40,27 @@ namespace ExerciciosPraticos
                 {
                     escolha = false;
                 }
-
             }
             escolha = true;
             while (escolha == true)
             {
+                CompromissoFeito addCompromisso = new CompromissoFeito();
                 try
                 {
-                    CompromissoFeito addCompromisso = new CompromissoFeito();
                     Console.WriteLine("Qual nome você quer procurar?");
                     var procuraNome = Console.ReadLine();
                     var resultado = compromisso.Where(x => x.nome == procuraNome);
 
                     Console.WriteLine($"\nEncontramos o nome na lista {resultado.First().nome}");
 
-                    addCompromisso.completaVetor(resultado.First().nome);
+                    compromissoFeito = addCompromisso.completaVetor(resultado.First().nome, compromissoFeito);
+
                     Console.WriteLine("Deseja procurar outro nome?\n1- Sim\n2- Não");
                     var varAux = int.Parse(Console.ReadLine());
 
                     if (varAux == 2)
                     {
-                        addCompromisso.imprimeNomeValido();
+                        addCompromisso.imprimeLista(compromissoFeito);
                         escolha = false;
                     }
                 }

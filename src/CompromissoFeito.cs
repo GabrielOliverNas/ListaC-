@@ -3,29 +3,30 @@ using System.Collections.Generic;
 
 namespace ExerciciosPraticos
 {
-    class CompromissoFeito 
+    class CompromissoFeito
     {
         public string nome { get; set; }
         public string nomeValido { get; set; }
+
         public CompromissoFeito()
         {
             this.nome = nome;
         }
-        public void completaVetor(string nomeValido)
+        public List<CompromissoFeito> completaVetor(string nomeValido, List<CompromissoFeito> compromissoFeito)
         {
-            var compromisso = new List<CompromissoFeito>();
-            compromisso.Add(new CompromissoFeito
+            compromissoFeito.Add(new CompromissoFeito
             {
                 nome = nomeValido,
             });
+            return compromissoFeito;
         }
-        public void imprimeNomeValido()
+        public void imprimeLista(List<CompromissoFeito> compromissoFeito)
         {
-            foreach (var elemento in compromisso)
+            foreach (var item in compromissoFeito)
             {
-                Console.WriteLine("- - - - - - - - -");
-                Console.WriteLine($"Nome: {elemento.nome}");
+                Console.WriteLine(item.nome);
             }
         }
+
     }
 }
